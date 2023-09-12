@@ -1,36 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
+        <members>Home_Garden</members>
+        <name>CustomApplication</name>
     </types>
     <types>
         <members>*</members>
-        <name>ApexComponent</name>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Account.Active__c</members>
+        <members>Account.Is_Company__c</members>
+        <members>Account.VAT_Number__c</members>
+        <members>Account.VAT_Number_Code__c</members>
+        <members>Product2.Approval_Status__c</members>
+        <members>Product2.Default_VAT_Rate__c</members>
+        <members>Product2.External_Product_Id__c</members>
+        <members>Product2.Status__c</members>
+        <members>Order.Account_is_Company__c</members>
+        <members>Order.Require_Invoice__c</members>
+        <members>Order.Total_Gross_Price__c</members>
+        <members>Order.Suma_VAT_Value__c</members>
+        <members>OrderItem.Total_Gross_Price__c</members>
+        <members>OrderItem.VAT_Rate__c</members>
+        <members>OrderItem.VAT_Value__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
+        <members>Order_Record_Page</members>
+        <members>Product_Record_Page</members>
+        <members>Home_Garden_UtilityBar</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
-        <name>ApexPage</name>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Cart_Line_Item__c-Cart Line Item Layout</members>
+        <members>Cart__c-Cart Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Category__c-Category Layout</members>
+        <members>Category__c-Digital Experience Category Layout (Guest)</members>
+        <members>Category__c-Digital Experience Customer Category Layout (Shop External User)</members>
+        <members>Lead-Lead Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Product_Category__c-Product Category Layout</members>
+        <name>Layout</name>
     </types>
     <types>
         <members>*</members>
-        <name>ApexTestSuite</name>
+        <name>CustomTab</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
+        <members>Shop Employee</members>
+        <members>Shop External User</members>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <version>58.0</version>
+    <version>57.0</version>
 </Package>
