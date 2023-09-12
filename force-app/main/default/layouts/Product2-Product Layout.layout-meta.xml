@@ -92,6 +92,13 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <fields>NAME</fields>
+        <fields>Unit_Price__c</fields>
+        <fields>Quantity__c</fields>
+        <fields>Total_Gross_Price__c</fields>
+        <relatedList>Cart_Line_Item__c.Product__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedStandardPriceList</relatedList>
     </relatedLists>
     <relatedLists>
