@@ -8,11 +8,13 @@
         <members>*</members>
         <name>CustomObject</name>
     </types>
-    <types>
+<types>
         <members>Account.Active__c</members>
         <members>Account.Is_Company__c</members>
         <members>Account.VAT_Number__c</members>
         <members>Account.VAT_Number_Code__c</members>
+        <members>Lead.Amount_Of_Products__c</members>
+        <members>Opportunity.StageName</members>
         <members>Product2.Approval_Status__c</members>
         <members>Product2.Default_VAT_Rate__c</members>
         <members>Product2.External_Product_Id__c</members>
@@ -25,6 +27,14 @@
         <members>OrderItem.VAT_Rate__c</members>
         <members>OrderItem.VAT_Value__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>OpportunityStage</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Order.OrderWithoutAddressCantBeSent</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account_Record_Page</members>
