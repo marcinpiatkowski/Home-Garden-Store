@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <description>Order Status: Sent</description>
-        <name>Order_Status_Sent</name>
-        <label>Order Status: Sent</label>
-        <locationX>314</locationX>
-        <locationY>431</locationY>
-        <actionName>Order.Order_Status_Sent</actionName>
-        <actionType>emailAlert</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
         <description>Order Status: Submitted.</description>
         <name>Order_Status_Submitted</name>
         <label>Order Status: Submitted</label>
@@ -31,13 +15,15 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Order.Order_Status_Submitted</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
     <decisions>
         <description>Order status dispatcher.</description>
         <name>Order_status_dispatcher</name>
         <label>Order status dispatcher</label>
-        <locationX>314</locationX>
+        <locationX>182</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -55,22 +41,6 @@
             </connector>
             <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
             <label>Submitted</label>
-        </rules>
-        <rules>
-            <name>Sent</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Sent</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Order_Status_Sent</targetReference>
-            </connector>
-            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-            <label>Sent</label>
         </rules>
     </decisions>
     <description>RT: Order - Email Notifications.</description>
@@ -97,7 +67,7 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>188</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Order_status_dispatcher</targetReference>
