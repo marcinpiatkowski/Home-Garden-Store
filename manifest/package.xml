@@ -28,6 +28,10 @@
         <members>OrderItem.VAT_Value__c</members>
         <name>CustomField</name>
     </types>
+        <types>
+        <members>OpportunityStage</members>
+        <name>StandardValueSet</name>
+    </types>
     <types>
         <members>OpportunityStage</members>
         <name>StandardValueSet</name>
