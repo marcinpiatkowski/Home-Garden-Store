@@ -37,6 +37,14 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>OpportunityStage</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Order.OrderWithoutAddressCantBeSent</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account_Record_Page</members>
         <members>Order_Record_Page</members>
         <members>Product_Record_Page</members>
