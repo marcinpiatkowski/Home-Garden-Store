@@ -46,6 +46,11 @@
         <name>ValidationRule</name>
     </types>
     <types>
+    <members>SalesReports</members>
+    <members>SalesReports/Orders_with_Products_Report_Flh</members>
+    <name>Report</name>
+</types>
+    <types>
         <members>Account_Record_Page</members>
         <members>Order_Record_Page</members>
         <members>Product_Record_Page</members>
