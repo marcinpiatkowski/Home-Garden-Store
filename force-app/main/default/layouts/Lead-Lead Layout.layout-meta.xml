@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>LinkedIn__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Amount_Of_Products__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
