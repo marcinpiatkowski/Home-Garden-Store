@@ -28,13 +28,27 @@
         <members>OrderItem.VAT_Value__c</members>
         <name>CustomField</name>
     </types>
-        <types>
-        <members>OpportunityStage</members>
-        <name>StandardValueSet</name>
+    <types>
+        <members>Order_Notification</members>
+        <members>Order_Notification/Order_Status_Sent</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Order.Order_Status_Sent</members>
+        <name>WorkflowAlert</name>
     </types>
     <types>
         <members>OpportunityStage</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Order.OrderWithoutAddressCantBeSent</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>SalesReports</members>
+        <members>SalesReports/Orders_with_Products_Report_Flh</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Account_Record_Page</members>
