@@ -46,9 +46,14 @@
         <name>ValidationRule</name>
     </types>
     <types>
-        <members>SalesReports</members>
-        <members>SalesReports/Orders_with_Products_Report_Flh</members>
-        <name>Report</name>
+    	<members>SalesReports</members>
+    	<members>SalesReports/Orders_with_Products_Report_Flh</members>
+    	<name>Report</name>
+    </types>
+    <types>
+    	<members>SalesDashboards</members>
+    	<members>SalesDashboards/aUeXcyWlOdVVurjkOEITTDLbOhHEBz</members>
+    	<name>Dashboard</name>
     </types>
     <types>
         <members>Account_Record_Page</members>
