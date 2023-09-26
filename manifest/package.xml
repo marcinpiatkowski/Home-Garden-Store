@@ -59,6 +59,7 @@
         <members>Account_Record_Page</members>
         <members>Order_Record_Page</members>
         <members>Product_Record_Page</members>
+        <members>Home_Page_Default</members>
         <members>Home_Garden_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
@@ -82,6 +83,10 @@
         <members>Product2-Product Layout</members>
         <members>Product_Category__c-Product Category Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageLayout</name>
     </types>
     <types>
         <members>*</members>
