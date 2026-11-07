@@ -1,5 +1,5 @@
 {
-  "orgName": "Demo company",
+  "orgName": "Home & Garden Store",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
@@ -8,6 +8,15 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "orderSettings": {
+      "enableOrders": true
+    },
+    "languageSettings": {
+      "enableEndUserLanguages": true,
+      "enableTranslationWorkbench": true,
+      "enableICULocaleDateFormat": true,
+      "enableCanadaIcuFormat": true
     }
   }
 }

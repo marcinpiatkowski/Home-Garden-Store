@@ -26,7 +26,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>SalesReports/Orders_with_Products_Report_Flh</report>
+                <report>SalesReports/Orders_with_Products</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -70,7 +70,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <header>Products Summary</header>
-                <report>SalesReports/Orders_with_Products_Report_Flh</report>
+                <report>SalesReports/Orders_with_Products</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>10</rowSpan>
@@ -94,7 +94,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>SalesReports/Orders_with_Products_Report_Flh</report>
+                <report>SalesReports/Orders_with_Products</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
@@ -103,10 +103,9 @@
         <numberOfColumns>12</numberOfColumns>
         <rowHeight>36</rowHeight>
     </dashboardGridLayout>
-    <dashboardType>SpecifiedUser</dashboardType>
+    <dashboardType>LoggedInUser</dashboardType>
     <description>Sales Dashboard</description>
     <isGridLayout>true</isGridLayout>
-    <runningUser>piatkowskimarcin87@marpi.pl</runningUser>
     <textColor>#000000</textColor>
     <title>Sales</title>
     <titleColor>#000000</titleColor>
