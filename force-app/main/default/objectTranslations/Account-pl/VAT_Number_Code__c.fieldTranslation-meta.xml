@@ -4,110 +4,110 @@
     <name>VAT_Number_Code__c</name>
     <picklistValues>
         <masterLabel>AT</masterLabel>
-        <translation></translation>
+        <translation><!-- AT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>BE</masterLabel>
-        <translation></translation>
+        <translation><!-- BE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>BG</masterLabel>
-        <translation></translation>
+        <translation><!-- BG --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CY</masterLabel>
-        <translation></translation>
+        <translation><!-- CY --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>CZ</masterLabel>
-        <translation></translation>
+        <translation><!-- CZ --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>DE</masterLabel>
-        <translation></translation>
+        <translation><!-- DE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>DK</masterLabel>
-        <translation></translation>
+        <translation><!-- DK --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>EE</masterLabel>
-        <translation></translation>
+        <translation><!-- EE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>EL</masterLabel>
-        <translation></translation>
+        <translation><!-- EL --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>ES</masterLabel>
-        <translation></translation>
+        <translation><!-- ES --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>FI</masterLabel>
-        <translation></translation>
+        <translation><!-- FI --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>FR</masterLabel>
-        <translation></translation>
+        <translation><!-- FR --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>HR</masterLabel>
-        <translation></translation>
+        <translation><!-- HR --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>HU</masterLabel>
-        <translation></translation>
+        <translation><!-- HU --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>IE</masterLabel>
-        <translation></translation>
+        <translation><!-- IE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>IT</masterLabel>
-        <translation></translation>
+        <translation><!-- IT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LT</masterLabel>
-        <translation></translation>
+        <translation><!-- LT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LU</masterLabel>
-        <translation></translation>
+        <translation><!-- LU --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>LV</masterLabel>
-        <translation></translation>
+        <translation><!-- LV --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>MT</masterLabel>
-        <translation></translation>
+        <translation><!-- MT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>NL</masterLabel>
-        <translation></translation>
+        <translation><!-- NL --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>PL</masterLabel>
-        <translation></translation>
+        <translation><!-- PL --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>PT</masterLabel>
-        <translation></translation>
+        <translation><!-- PT --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>RO</masterLabel>
-        <translation></translation>
+        <translation><!-- RO --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SE</masterLabel>
-        <translation></translation>
+        <translation><!-- SE --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SI</masterLabel>
-        <translation></translation>
+        <translation><!-- SI --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SK</masterLabel>
-        <translation></translation>
+        <translation><!-- SK --></translation>
     </picklistValues>
 </CustomFieldTranslation>
