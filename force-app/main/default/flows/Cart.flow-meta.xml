@@ -727,7 +727,7 @@
                     </defaultValue>
                     <fieldText>Billing Street</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Billing_City</name>
@@ -737,7 +737,7 @@
                     </defaultValue>
                     <fieldText>Billing City</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Billing_Zip_Postal_Code</name>
@@ -747,7 +747,7 @@
                     </defaultValue>
                     <fieldText>Billing Zip/Postal Code</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Billing_Country</name>
@@ -757,7 +757,7 @@
                     </defaultValue>
                     <fieldText>Billing Country</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <inputParameters>
                     <name>width</name>
@@ -778,7 +778,7 @@
                     </defaultValue>
                     <fieldText>Shipping Street</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Shipping_City</name>
@@ -788,7 +788,7 @@
                     </defaultValue>
                     <fieldText>Shipping City</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Shipping_Zip_Postal_Code</name>
@@ -798,7 +798,7 @@
                     </defaultValue>
                     <fieldText>Shipping Zip/Postal Code</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <fields>
                     <name>Shipping_Country</name>
@@ -808,7 +808,7 @@
                     </defaultValue>
                     <fieldText>Shipping Country</fieldText>
                     <fieldType>InputField</fieldType>
-                    <isRequired>false</isRequired>
+                    <isRequired>true</isRequired>
                 </fields>
                 <inputParameters>
                     <name>width</name>

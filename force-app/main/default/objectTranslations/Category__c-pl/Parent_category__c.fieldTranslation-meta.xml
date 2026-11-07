@@ -2,5 +2,5 @@
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>Kategoria nadrzędna</label>
     <name>Parent_category__c</name>
-    <relationshipLabel></relationshipLabel>
+    <relationshipLabel><!-- Child Categories --></relationshipLabel>
 </CustomFieldTranslation>
