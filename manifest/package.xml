@@ -110,16 +110,11 @@
     </types>
     <types>
         <members>*</members>
-        <name>HomePageLayout</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>Shop Employee</members>
         <members>Shop External User</members>
-        <members>Admin</members>
         <name>Profile</name>
     </types>
     <version>57.0</version>
