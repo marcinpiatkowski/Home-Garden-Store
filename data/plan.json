@@ -1,8 +1,6 @@
 [
     {
         "sobject": "Category__c",
-        "saveRefs": true,
-        "resolveRefs": true,
         "files": [
             "Category__c-level0.json",
             "Category__c-level1.json",
@@ -12,16 +10,12 @@
     },
     {
         "sobject": "Product2",
-        "saveRefs": true,
-        "resolveRefs": false,
         "files": [
             "Product2.json"
         ]
     },
     {
         "sobject": "Product_Category__c",
-        "saveRefs": false,
-        "resolveRefs": true,
         "files": [
             "Product_Category__c.json"
         ]

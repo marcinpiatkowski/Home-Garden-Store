@@ -162,32 +162,6 @@
         <fullName>Cart</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows>
-            <screens>
-                <fields>
-                    <name>I_don_t_want_to_be_contacted</name>
-                </fields>
-                <fields>
-                    <name>I_don_t_want_you_to_track_my_location</name>
-                </fields>
-                <fields>
-                    <name>I_don_t_want_you_to_track_my_usage</name>
-                </fields>
-                <fields>
-                    <name>privacyPrompt</name>
-                </fields>
-                <name>Communication_Preferences</name>
-            </screens>
-            <screens>
-                <fields>
-                    <name>thankYou</name>
-                </fields>
-                <name>Welcome_to_Ursa_Major</name>
-            </screens>
-        </flows>
-        <fullName>Privacy_Settings</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
         <flows/>
         <fullName>RT_New_Lead_message_from_Website</fullName>
     </flowDefinitions>

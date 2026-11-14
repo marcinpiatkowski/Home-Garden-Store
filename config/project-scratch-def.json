@@ -12,6 +12,14 @@
     "orderSettings": {
       "enableOrders": true
     },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "caseSettings": {
+      "emailToCase": {
+        "enableEmailToCase": true
+      }
+    },
     "languageSettings": {
       "enableEndUserLanguages": true,
       "enableTranslationWorkbench": true,
