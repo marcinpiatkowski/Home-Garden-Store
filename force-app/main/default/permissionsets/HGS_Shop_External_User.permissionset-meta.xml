@@ -2,11 +2,6 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Store customer access: browse the catalog, manage own cart, place orders and open cases.</description>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Cart_Line_Item__c.Product_Name_Formula__c</field>
         <readable>true</readable>
@@ -104,6 +99,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Default_VAT_Rate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Main_image_url__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Product_Image_List_View__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.Product_Image__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
